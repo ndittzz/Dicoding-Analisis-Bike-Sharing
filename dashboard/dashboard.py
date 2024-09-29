@@ -8,7 +8,7 @@ st.title('Dashboard Analisis Bike Sharing')
 # Memuat dataset dengan st.cache_data
 @st.cache_data
 def load_data():
-    data = pd.read_csv('../data/hour.csv')
+    data = pd.read_csv('hour.csv')
     return data
 
 data = load_data()
