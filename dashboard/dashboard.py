@@ -49,7 +49,7 @@ st.pyplot(fig)
 st.write("Grafik ini menunjukkan perubahan jumlah pengguna sepeda di setiap jam dalam sehari untuk bulan yang dipilih.")
 
 # ---- Visualisasi 2: Karakteristik Pengguna Berdasarkan Pilihan Pengguna (Seaborn Box Plot) ----
-st.write("### Frekuensi Penyewaan Berdasarkan Karakteristik Pengguna (Data Harian)")
+st.write("### Frekuensi Penyewaan Setiap Hari (Data Harian)")
 
 # Select box untuk memilih karakteristik pengguna (misalnya: weekday, season, dll.)
 selected_day_characteristic = st.sidebar.selectbox(
